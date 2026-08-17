@@ -33,3 +33,5 @@ python -m quant.report    # reproduce the baseline backtest + metrics
   reported metric must be reproducible by one command.
 - README claims are verified before commit; if code and README disagree, fixing the README
   is part of the change.
+
+<!-- verify: .venv\Scripts\python.exe -m pytest -q -->
